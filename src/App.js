@@ -90,7 +90,7 @@ const App = () => {
   return (
     <>
       <h1 style={{ textAlign: 'center' }}>{selected}</h1>
-      <SearchField options={options} onChange={setSelected} />
+      <SearchField options={options} onChange={setSelected} placeholder='Search for a fruit...' />
     </>
   );
 };
