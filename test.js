@@ -1,15 +1,15 @@
 // myFunc();
 //
 // // function statement
-// function myFunc() {}
+function myFunc() {}
 //
 // // function expression
-const myFunc = (function () {})(
-  // arrow function
-  // () => {};
+const myFunction = function () {};
 
-  // IIFE
-  () => {
-    console.log('hello');
-  }
-)();
+// arrow function
+const a = () => {};
+
+// IIFE
+(() => {
+  console.log('hello');
+})();
