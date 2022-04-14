@@ -3,6 +3,14 @@ import './searchfield.css';
 import scrollIntoView from 'scroll-into-view-if-needed';
 
 class SearchFieldClass extends Component {
+  // constructor(props) {
+  //   super(props);
+  //   this.state = { number: 0 };
+  // ha nem arrow function-t hasznalnank:
+  // this.handleOutsideClick = this.handleOutsideClick.bind(this)
+  // this.handleKeyEvents = this.handleKeyEvents.bind(this)
+  // }
+
   state = {
     opened: false,
     searchTerm: '',
